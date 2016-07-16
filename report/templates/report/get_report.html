@@ -1,0 +1,21 @@
+
+{% load staticfiles %}
+<html>
+    <head>
+        <title>SCAIP</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="{% static 'css/get_report.css' %}">
+    </head>
+    <body>
+        <div>
+            <h1><a href="/">Report</a></h1>
+        </div>
+
+        {% for post in posts %}
+            <div>
+                
+            </div>
+        {% endfor %}
+    </body>
+</html>
