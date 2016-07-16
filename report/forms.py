@@ -6,4 +6,4 @@ class PostForm(forms.ModelForm):
 
 	class Meta:
 		model = Report_Data
-		fields = ('catagory', 'location', 'trafficker-info', 'description')
+		fields = ('Catagory', 'report_location', 'trafficker_name', 'description')
