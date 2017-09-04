@@ -1,2 +1,2 @@
 # scaip
-Reasltime Secure Communication, Alert and Insight platform. 
+Realtime Secure Communication, Alert and Insight platform. 
